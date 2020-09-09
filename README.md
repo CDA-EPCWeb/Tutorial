@@ -12,3 +12,6 @@ O Twitter Scrapper permite coletar tweets através de uma API não oficial
 
 #### Leitura de JSon com Notebooks Jupyter 
 Ajuda a entender como navegar pelo formato de linguagem em que tweets são armazenados.
+
+#### SQL to Pandas
+Ajuda a entender como ler uma Db com a biblioteca Pandas
