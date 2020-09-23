@@ -1,6 +1,6 @@
 ## Orientações GeoPy
 
-Esta documentação foi elaborada com o intuito de facilitar o uso da biblioteca GeoPy nos estudos referentes ao nosso projeto. GeoPy é uma biblioteca python desenvolvida para agrupar diversos serviços web de geocodificação e fontes de dados de terceiros para tornar mais simples a relização de tarefas relacionadas à pesquisa geográfica.
+Esta documentação foi elaborada com o intuito de facilitar o uso da biblioteca GeoPy nos estudos referentes ao nosso projeto. GeoPy é uma biblioteca python desenvolvida para agrupar diversos serviços web de geocodificação e fontes de dados de terceiros para tornar mais simples a realização de tarefas relacionadas à pesquisa geográfica.
 
 A principal fonte de informação usada para a formação destas orientações foi a [documentação oficial GeoPy](https://geopy.readthedocs.io/en/latest/). 
 
@@ -25,7 +25,7 @@ from geopy.geocoders import [geocoder]
 
 Alguns dos Geocoders mais populares e disponibilizados pela biblitoeca são: Nominatim, BaiduV3, Bing, DataBC e GoogleV3. É importante salientar que cada Geocoder tem sua docuemntação, seu método de autenticação e de uso. 
 
-Para fins didáticos, vamos utilizar a API [Nominatim](https://nominatim.org/) na maioria dos exemplos. Os processos de implementação não se alteram drasticamente para cada API, mas as funções características individuais, que não serão abordadas aqui, podem facilmente ser encontradas na documentação GeoPy.
+Para fins didáticos, vamos utilizar a API [Nominatim](https://nominatim.org/) nos exemplos. Os processos de implementação não se alteram drasticamente para cada API, mas as funções características individuais, que não serão abordadas aqui, podem facilmente ser encontradas na documentação GeoPy.
 
 ### Funcionalidades
 
@@ -57,7 +57,7 @@ O GeoPy é capaz de calcular distâncias entre dois pontos geográficos usando a
 A função ```distance.distance``` permite que esse cálculo seja realizado de forma simples, usando como padrão a distância geodésica.
 
 ```
-distance.distance(local1, local)
+distance.distance(local1, local2)
 ```
 
 _* os locais devem ser especificados em coordenadas geográficas no formato (lat,lon)._
